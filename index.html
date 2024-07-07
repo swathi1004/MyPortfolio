@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">Portfo<span>lio.</span></div>
+        <ul id="menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+    </div>
+    <div class="main">
+        <section id="intro">
+            <div class="intro-text">
+                <h3>Hi, This is
+                </h3>
+                <h1>Swathi Karnati</h1>
+                <h3>And i'm a Web Designer</h3>
+                <p>Presently studying B.Tech 2nd year in SRM UNIVERSITY.</p>
+                <a href="#" class="hire-me">Hire Me</a>
+            </div>
+        </section>
+    
+
+        <section id="about">
+            <div class="about-content">
+                <h2>About Me</h2><br>
+                <div class="container">
+                    <div class="project">
+                        <img src="images/swathi.jpg" alt="profile">
+                        <p>I am currently pursuing my B.TECH [CSE] at [SRM UNIVERSITY],with an expected graduation date of 2026.My academic journey has provided me with a strong foundation in programming skills, and I am eager to apply this knowledge in real-world scenarios. Throughout my studies, I have been actively involved in clubs, enhancing my interpersonal skills and allowing me to collaborate effectively in team environments.As I approach graduation, I am excited about the prospect of transitioning
+                            into a professional role where I can continue to learn and grow.</p>
+                    </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- about section start -->
+    <!-- <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="https://www.stewardtoday.com/wp-content/uploads/2017/07/Female-College-Student-FB-1024x683.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Drutika and I'm a <span class="typing-2"></span></div>
+                    <p> passionate and dedicated student eager to make a positive impact through my academic journey. Currently pursuing second year at SRM University, I thrive on challenges and constantly seek opportunities to grow both academically and
+                        personally. My academic journey has been driven by curiosity and a love for learning. I approach every task with enthusiasm and a commitment to excellence.</p>
+                    <a href="#">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-item">
+                    <img src="images/html-tagst.jpg" alt="HTML">
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill-item">
+                    <img src="images/css.jpg" alt="CSS">
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-item">
+                    <img src="images/js.jpg" alt="JavaScript">
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-item">
+                    <img src="images/python.webp" alt="JavaScript">
+                    <h3>python</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <h3>Project 1: Hotel Management using C</h3>
+                    <p>This project involves creating a system to manage hotel operations. When a customer arrives, we book a room for them, collecting details such as phone number, name, and Aadhaar number. Additionally, we have a restaurant service where customers can order food. This system was implemented using the C programming language.</p>
+                </div>
+                <div class="project">
+                    <h3>Project 2: Student Grading System using C++</h3>
+                    <p>In this project, we developed a system to enter and manage student marks. It allows for easy retrieval of student details and can quickly find information for any random student. This system is implemented in C++.</p>
+                </div>
+                <div class="project">
+                    <h3>Project 3: Creating Resume using HTML & CSS</h3>
+                    <p>This is a basic project focused on creating a registration form. It showcases fundamental skills in HTML and CSS by developing a simple, user-friendly form for capturing user information.</p>
+                </div>
+                <!-- <div class="project">
+                    <img src="images/swathi.jpg" alt="profile">
+                    <p>I am currently pursuing my B.TECH [CSE] at [SRM UNIVERSITY],with an expected graduation date of 2026.My academic journey has provided me with a strong foundation in programming skills, and I am eager to apply this knowledge in real-world scenarios. Throughout my studies, I have been actively involved in clubs, enhancing my interpersonal skills and allowing me to collaborate effectively in team environments.As I approach graduation, I am excited about the prospect of transitioning
+                        into a professional role where I can continue to learn and grow.</p>
+                </div> -->
+            </div>
+        </section>
+        
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-entry">
+                <table border="1">
+                    <tr>
+                        <th>Institute Name</th>
+                        <th>year</th>
+                        <th>Place</th>
+                        <th>Degree</th>  
+                        </tr>
+                        <tr>
+                            <td>SRM UNIVERSITY </td>
+                            <td>2020-2026</td>
+                            <td>Nerukonda,AP</td>
+                            <td>Btech</td>
+                            </tr>
+                            <tr>
+                                <td>NARAYANA </td>
+                                <td>2020</td>
+                                <td>Guntur,AP</td>
+                                <td>12th</td>
+                                </tr>
+                                <tr>
+                                    <td>Sri Satya Sai High School </td>
+                                    <td>2017</td>
+                                    <td>Tadikonda,AP</td>
+                                    <td>10th</td>
+                                </tr>
+                 </table> 
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        
+        <footer>
+            <div class="social-icons">
+                <a class="linkedin" href="https://www.linkedin.com/in/karnati-swathi-605857258/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                <a class="github" href="https://github.com/swathi1004" target="_blank"><i class='bx bxl-github'></i></a>
+                <a class="blog" href="https://www.codechef.com/users/swathi_karnati" target="_blank"><i class='bx bx-code'></i></a>
+            </div>
+        </footer>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
